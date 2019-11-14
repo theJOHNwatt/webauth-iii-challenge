@@ -11,7 +11,6 @@ exports.up = function(knex) {
             .notNullable();
         users
             .string('department', 128)
-            .notNullable();
     });
 };
 
